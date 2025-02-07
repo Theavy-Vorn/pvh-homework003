@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.637);
+    font-family: "Exo 2", serif;
+}
+/* ----------------------------------nav------------------------------ */
+.nav{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px 15px 100px;
+    background-color: rgba(255, 255, 255, 0.808);
+    top:0;
+    position:fixed;
+    z-index: 100;
+}
+.nav a{
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+}
+.btn-contact button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn-contact button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.btn-contact button:active{
+    color:black;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid  aqua;
+    
+}
+
+.main-content{
+    padding-top: 73px;
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;  
+   
+}
+.hori-nav{
+    width:6%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.562);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content:space-around;
+    
+}
+.hori-nav a{
+   transform: rotate(-90deg);
+   text-decoration: none;
+   color:black
+}
+.hori-nav a:hover{
+    cursor: pointer;
+   
+}
+
+/* -----------------------------content---------------------- */
+.content{
+    border-radius: 30px;
+    width:94%;
+    height: 580px;
+    background-color: rgb(209, 206, 212);
+    margin: auto;  
+    padding: 30px;
+}
+.main{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -------------------section1------------------ */
+table{
+    border-spacing: 20px; 
+}
+.images{
+    width:50%;
+    height: 100%;
+    background-color: rgb(209, 206, 212);
+}
+table{
+    width:100%;
+    height: 50%;
+}
+.card1{
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rate{
+    text-align: right;
+}
+.rate i{
+    color: yellow;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.nav-bar a:visited {
+    color: aqua;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-bar a:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-bar a:active {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#pho2{
+    background-image: url("https://images.pexels.com/photos/3355788/pexels-photo-3355788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+    width:20%;
+    box-shadow: 0 4px 8px 0;
+    
+}
+#pho3{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-outdoor-view-ocean-beach_74190-6853.jpg?semt=ais_hybrid");
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+    width:20%;
+    box-shadow: 0 4px 8px 0 ;
+}
+.card{
+    margin: 20px;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    width:80%;
+    height: 90px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.fa-star{
+    color: yellow;
+}
+.paragraph{
+    text-align: left;
+    padding: 80px 30px 60px 70px ;
+    height: 100%;
+    width:50%;
+    background-color: rgb(209, 206, 212);
+}
+#act{
+    position: relative;
+}
+#act::after{
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+}
+.paragraph  h1.life::first-letter {
+    color: aqua;
+    font-size: 60px;
+  }
+.paragraph h1{
+    font-size: 40px;
+}
+.paragraph p{
+    margin-top: 30px;
+}
+.paragraph button{
+    margin-top: 40px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.btn-icon i{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 12px;
+    color: aqua;
+    background-color: white;
+}
+.btn-icon i:hover{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 12px;
+    color: aqua;
+    background-color: white;
+    border: 1px solid aqua;
+}
+.card2{
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 ;
+
+    
+}
+#sub-pho1{
+    background-image: url("https://media.istockphoto.com/id/1133073540/photo/tropical-beach-and-beautiful-sunrise-view-in-punta-cana-bay-dominican-republic.jpg?s=612x612&w=0&k=20&c=YsLPlxvmgdx4DOjxB3VFYju6pMqTARvYwy4KkfnM09c=");
+    width: 35%;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 ;
+}
+#sub-pho2{
+    width: 65%;
+    height: 120px;
+    
+    
+}
+.s-p{
+    display: flex;
+    position: relative;
+    width:50%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 ;
+}
+#s-pho1{
+    position: absolute;
+    top: 0; 
+    left:0;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    background-image: url("https://wallpapers.com/images/hd/beach-sunset-pictures-43h9lzv2hp9lycm6.jpg");
+    background-size: cover;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 ;
+}
+#s-pho2{
+    top:0;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    background-size: cover;
+    z-index: 1;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://www.andrewshoemaker.com/images/xl/ke-aloha-kaanapali-beach-sunset.jpg");
+}
+#s-pho3{
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    left: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://wallpapers.com/images/high/sunset-shoreline-beach-desktop-5p14xp1mkrt66jiq.webp");
+
+}
+/* ----------------------section2--------------------- */
+.sec2{
+   
+    width:80%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+.paragraph2{
+    top: 0;
+    width:100%;
+    height: auto;
+    padding-left: 80px;
+    margin-top: 100px;
+}
+.three-pho{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    margin-top: 80px;
+}
+.t-pho1{
+    top: -30px;
+    width:30%;
+    height: 230px;
+    left: 0;
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    border: 10px solid white;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://chicagoparent.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2023/04/family-camping-tips-istock-anatoliy_gleb.jpg");
+}
+.t-pho2{
+    position: absolute;
+    bottom: -50px;
+    left: 33%;
+    width:30%;
+    height: 230px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px solid white;
+    margin-left: 20px;
+    background-image: url("https://i0.wp.com/www.minuteschool.com/wp-content/uploads/2019/07/blog_campping.jpeg?resize=1080%2C630&ssl=1");
+    box-shadow: 0 4px 8px 0 ;
+    
+}
+.t-pho3{
+    top: -30px;
+    right: 0;
+    width:30%;
+    height: 230px;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    border: 10px solid white;
+    background-image: url("https://static.toiimg.com/photo/msid-91658217,width-96,height-65.cms");
+    box-shadow: 0 4px 8px 0 ;
+}
+.t-pho1:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 3s;
+}
+.t-pho2:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 3s;
+}
+.t-pho3:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 3s;
+}
+
+.btn-explore button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    color:aqua;
+    border: 2px solid aqua;
+}
+.btn-explore button:hover{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+.btn-explore button:active{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    background-color: rgb(255, 208, 0);
+    border: 2px solid rgb(163, 137, 21);
+       
+}
+/* -----------------------------section3------------------ */
+.travel{
+    padding: 20px;
+    text-align: center;
+}
+.sec3{
+    width:80%;
+    height:480px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reverse{
+    width:100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column-reverse;
+}
+.media{
+    width:100%;
+    height: 100%;
+}
+.p1{
+    width:100%;
+    height:150px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 50px; 
+}
+.p1 button{
+    width:40px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.emoji{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    background-image: url("https://www.whiteclouds.com/wp-content/uploads/2024/12/What-is-a-Mountain-Main.jpg");
+    background-size: cover;
+}
+.person1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top:40px;
+    left: -40px;
+    position: absolute;
+    width:130px;
+    height: 60px; 
+    background-color: rgba(255, 255, 255, 0.822); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0;
+}
+.account1{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 6;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://qotoqot.com/sad-animations/img/150/sleepy/sleepy.gif");
+    background-size: cover;
+}
+.name{
+    font-size: small;
+}
+.fa-heart{
+    color: orange;
+}
+
+.person2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top:300px;
+    left: -40px;
+    position: absolute;
+    width:130px;
+    height: 60px; 
+    background-color: rgba(255, 255, 255, 0.822); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0;
+}
+.person3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top:150px;
+    left: 220px;
+    position: absolute;
+    width:130px;
+    height: 60px; 
+    background-color: rgba(255, 255, 255, 0.822); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0;
+}
+.account2{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 6;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://qotoqot.com/sad-animations/img/150/blanket/blanket.gif");
+    background-size: cover;
+}
+.account3{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 6;
+    box-shadow: 0 4px 8px 0 ;
+    background-image: url("https://qotoqot.com/sad-animations/img/150/low_battery/low_battery.gif");
+    background-size: cover;
+}
+/* --------------------------footer----------------------- */
+.foot{
+    text-align: center;
+    width:100%;
+    padding: 20px;
+    background-color: rgb(240, 243, 247);
+    position: relative;
+}
+.up{
+    position: absolute;
+    float: right;
+    padding: 10px;
+    position: sticky;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 ;
+    z-index: 3;
+    bottom: 10px;
+    right: 20px;
+   
+}
+.fa-arrow-up{
+    padding-left: 8px;
+    font-size: 20px;
+    position: absolute;
+    top:15px;
+    color: aqua;
+}
